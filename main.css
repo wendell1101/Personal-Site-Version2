@@ -221,10 +221,11 @@ li{
 
 }
 .projects-btn{
-    width: 150px;
+    width: 120px;
 }
 .cv-btn{
     width: 150px;
+    margin-left: 1rem;
 }
 
 
@@ -464,6 +465,7 @@ footer{
     .text-subtitle{
         white-space: normal;
     }
+
 }
 
 @media (max-width:400px){
@@ -473,5 +475,10 @@ footer{
     }
     .text-subtitle{
         white-space: normal;
+    }
+}
+@media (max-width:350px){
+    .projects-btn{
+        margin-bottom: 1rem!important;
     }
 }
